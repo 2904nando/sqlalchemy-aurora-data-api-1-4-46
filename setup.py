@@ -12,7 +12,7 @@ setup(
     description='An AWS Aurora Serverless Data API dialect for SQLAlchemy',
     long_description=open('README.rst').read(),
     install_requires=[
-        'sqlalchemy',
+        'sqlalchemy>=1,<2',
         'aurora-data-api >= 0.4.0'
     ],
     extras_require={
